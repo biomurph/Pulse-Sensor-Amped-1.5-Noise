@@ -37,7 +37,7 @@ volatile boolean QS = false;        // becomes true when Arduoino finds a beat.
 //      run the Serial Monitor at 115200 baud: Tools/Serial Monitor or Command+M
 // SERIAL_PLOTTER outputs sensor data for viewing with the Arduino Serial Plotter
 //      run the Serial Plotter at 115200 baud: Tools/Serial Plotter or Command+L
-static int outputType = SERIAL_PLOTTER;
+static int outputType = PROCESSING_VISUALIZER;
 
 
 void setup(){
